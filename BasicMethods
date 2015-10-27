@@ -1,7 +1,0 @@
-def gcContent(sequence):
-    content = 0
-    for letter in sequence:
-        if letter is 'G' or letter is 'C':
-            content+=1
-    contentPer = content / len(sequence) * 100
-    return contentPer
